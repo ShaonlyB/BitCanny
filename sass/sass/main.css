@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  color: red;
+  font-size: 100px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,31 @@
+body, html{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    border: 2px solid black;
+    animation: moveBox 5s 1s infinite;
+}
+@keyframes moveBox{
+    0%{
+        transform: translate(0px, 0px) ;
+    }
+    25%{
+        transform: translate(0px, 200px);
+    }
+    50%{
+        transform: translate(200px, 200px);
+    }
+    75%{
+        transform: translate(200px, 0px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}

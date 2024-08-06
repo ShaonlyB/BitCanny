@@ -1,0 +1,12 @@
+p::first-line{
+    color: blue;
+}
+p::first-letter{
+    color: brown;
+}
+p::selection{
+    background-color: purple;
+}
+::marker{
+    color: red;
+}

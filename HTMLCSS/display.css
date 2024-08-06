@@ -1,0 +1,14 @@
+div{
+    height: 50px;
+    width: 50px;
+    background-color: cornsilk;
+    border: 1px solid black;
+    display: inline-block;
+    /* display: inline; */
+
+}
+#one{
+    /* display: none; */
+    /* visibility: hidden; */
+    opacity: 0;
+}

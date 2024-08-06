@@ -1,0 +1,65 @@
+body,html{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen-center{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.screen-center-center{
+    height: 50px;
+    width: 50px;
+    background-color: burlywood;
+}
+.screen-center-corner{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+}
+.screen-center-corner-top-left{
+    top: 0;
+    left: 0;
+}
+.screen-center-corner-top-right{
+    top: 0;
+    right: 0;
+}
+.screen-center-corner-bottom-left{
+    bottom: 0;
+    left: 0;
+}
+.screen-center-corner-bottom-right{
+    bottom: 0;
+    right: 0;
+}
+.screen-corner{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    background-color: darkblue;
+}
+.screen-corner-top-left{
+    top: 0;
+    left: 0;
+}
+.screen-corner-top-right{
+    top: 0;
+    right: 0;
+}
+.screen-corner-bottom-left{
+    bottom: 0;
+    left: 0;
+}
+.screen-corner-bottom-right{
+    bottom: 0;
+    right: 0;
+}

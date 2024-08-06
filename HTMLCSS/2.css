@@ -1,0 +1,80 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Optional background color */
+    /* position: relative; /*Required for absolute positioning */
+}
+
+.screen-corner {
+    position: absolute; /*or we can use position:fixed; */
+    height: 50px;
+    width: 50px;
+    background-color: #2ecc71; /* Optional corner box color */
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.center-box {
+    height: 200px;
+    width: 200px;
+    background-color: #3498db; /* Optional box color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional box shadow */
+    position: relative; /* For positioning inner boxes */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-box {
+    height: 50px;
+    width: 50px;
+    background-color: #e74c3c; /* Optional inner box color */
+}
+
+.inner-corner-box {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #9b59b6; /* Optional small box color */
+}
+
+.top-left-corner {
+    top: 0;
+    left: 0;
+}
+
+.top-right-corner {
+    top: 0;
+    right: 0;
+}
+
+.bottom-left-corner {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right-corner {
+    bottom: 0;
+    right: 0;
+}

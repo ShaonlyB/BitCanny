@@ -1,0 +1,36 @@
+.main3 {
+    padding: 40px 220px 0 220px; /* Padding for the main content area */
+}
+
+.image-grid-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.image-grid-heading {
+    font-size: 2em;
+    margin-bottom: 70px;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-grid-item {
+    width: 40%; /* Adjusting for gap */
+    text-align: center;
+}
+
+.image-grid-item img {
+    max-width: 73%;
+    height: auto;
+    border-radius: 10px;
+}
+#belowimg{
+    color: blue;
+    font-size: 20px;
+}

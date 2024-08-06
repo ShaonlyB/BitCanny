@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    padding: 10px;
+    /* z-index: 1000; */
+}
+
+.sticky-navbar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sticky-navbar nav ul li {
+    margin: 0 10px;
+}
+
+.sticky-navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    padding: 50px 0;
+    border-bottom: 1px solid #ddd;
+}

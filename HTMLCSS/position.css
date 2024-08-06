@@ -1,0 +1,32 @@
+div{
+    height: 250px;
+    width: 250px;
+    background-color: bisque;
+    display: inline-block;
+    text-align: center;
+    
+}
+/* #one{
+    position: static;
+    top: 20px;
+} */
+#two{
+    position: relative;
+    top: 20px;
+}
+#four{
+    height: 150px;
+    width: 150px;
+    background-color: beige;
+    position: absolute;
+    top: 50px;
+}
+#three{
+    position: fixed;
+    left: 50px;
+    top: 150px;
+}
+#one{
+    position: sticky;
+    top: 25px;
+}

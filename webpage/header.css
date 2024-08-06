@@ -1,0 +1,185 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 0; /* Margin from the screen edges */
+    background-image: url('BG.png');
+    background-size: cover; /* Cover the entire header */
+    background-position: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.item {
+    margin-right: 25px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.light {
+    font-weight: lighter;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto; /* Push the button to the end */
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.item:first-child {
+    margin-left: 180px; /* Margin from the screen for the first item */
+}
+
+.item:last-child {
+    margin-right: 180px; /* Margin from the screen for the last item */
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px; /* Margin from the navbar */
+    padding: 0 220px 0 220px;
+}
+
+.text {
+    width: 50%;
+}
+
+.image {
+    width: 40%;
+    /* text-align: right; */
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Rounds the corners of the image */
+}
+
+#headerpara1 {
+    color: red;
+}
+
+#headerpara2 {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#headerpara3 {
+    color: grey;
+}
+
+/* Custom CSS for Responsiveness */
+@media (max-width: 1200px) {
+    .content {
+        padding: 0 100px;
+    }
+}
+
+@media (max-width: 992px) {
+    .item:first-child, .item:last-child {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .content {
+        padding: 0 50px;
+    }
+}
+
+/* Styles for the toggle button and checkbox hack */
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .item:first-child, .item:last-child {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .nav-toggle-label {
+        display: block;
+        /* margin-left: auto; */
+        /* margin-right: 20px; */
+        position: absolute;
+        right: 20px;
+    }
+
+    .navigation {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .nav-toggle:checked + .nav-toggle-label + .navigation {
+        display: flex;
+    }
+
+    .item {
+        margin-right: 0;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    .button {
+        margin-left: 20px;
+        width: auto;
+        /* text-align: center; */
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        padding: 50px 20px;
+    }
+
+    .text {
+        width: 90%;
+    }
+    
+    .image {
+        width: 50%;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    #headerpara2 {
+        font-size: large;
+    }
+
+    .button {
+        padding: 8px 16px;
+    }
+}

@@ -1,0 +1,25 @@
+.container{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    margin: auto;
+}
+.item{
+    border: 2px solid black;
+}
+.item1{
+    width: 45%;
+    float: right;
+    background-color: aquamarine;
+}
+.item2{
+    width: 45%;
+    float: left;
+    background-color: aqua;
+}
+.item3{
+    width: 100%;
+    background-color: chocolate;
+    clear: both;
+    margin-top: 200px;
+}

@@ -1,0 +1,12 @@
+#div1 {
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline;
+    margin: 50px;
+}
+#div2 {
+    background-color: rgb(224, 224, 69);
+    border: 2px solid black;
+    display: inline-block;
+    margin: 50px;
+}

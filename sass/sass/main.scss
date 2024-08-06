@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+div{
+    display: grid ;
+    place-items: center;
+}
+$bg-colcor: red;
+h1{
+    color: $bg-colcor;
+    font-size: 50px + 50px;
+    
+}

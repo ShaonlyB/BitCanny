@@ -1,0 +1,159 @@
+
+.main1 {
+    padding: 40px 220px 0 220px; /* Padding for the main content area */
+}
+
+.section1 {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.centered-text {
+    margin-bottom: 20px;
+}
+
+#centered-text-1 {
+    font-size: small;
+    color: red;
+}
+
+#centered-text-2 {
+    font-size: large;
+    font-weight: bold;
+    width: 300px;
+    padding: 0 200px 0 270px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    /* background-color: #f8f8f8; */
+    border-radius: 10px;
+    /* overflow: hidden; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    height: 300px;
+    width: 100%;
+    margin: 10px;
+    /* text-align: left; */
+    /* transition: transform 0.2s; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card img {
+    width: 30%;
+    height: auto;
+    padding-left: 30%;
+    padding-top: 30px;
+}
+
+.card-text {
+    padding: 20px;
+    text-align: center;
+}
+
+.card1 {
+    background-color: rgb(80, 205, 80);
+}
+
+.card2 {
+    background-color: rgb(53, 53, 219);
+}
+
+.card3 {
+    background-color: red;
+}
+
+.card-text h3 {
+    margin-top: 0;
+}
+
+.card-text p {
+    margin: 10px 0 0;
+}
+
+/* Custom CSS for Responsiveness */
+@media (max-width: 1200px) {
+    .main1 {
+        padding: 40px 100px 0 100px;
+    }
+    #centered-text-2 {
+        margin-left: 170px;
+        padding: 0 100px 0 100px;
+    }
+}
+
+@media (max-width: 992px) {
+    .main1 {
+        padding: 40px 50px 0 50px;
+    }
+    #centered-text-2 {
+        padding-left: auto;
+        padding-right: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .main1 {
+        padding: 20px 20px 0 20px;
+    }
+    #centered-text-2 {
+        margin-left: 170px;
+        margin-right: 170px;
+        padding: 0 50px 0 50px;
+    }
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        max-width: 50%;
+    }
+    #centered-text-2 {
+        padding: 0 20px 0 20px;
+        width: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    #centered-text-1 {
+        font-size: smaller;
+    }
+    #centered-text-2 {
+        font-size: medium;
+        padding: 0 10px 0 10px;
+    }
+    .card img {
+        width: 30%;
+        padding-left: 35%;
+    }
+}
+
+.image-text-section {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.section-image {
+    width: 40%;
+    text-align: right;
+}
+
+.section-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Rounds the corners of the image */
+}
+
+.section-text {
+    width: 60%;
+    padding: 20px;
+    font-weight: bold;
+}
