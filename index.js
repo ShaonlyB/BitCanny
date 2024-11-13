@@ -1,4 +1,5 @@
 // console.log("hello");
+console.log("hello")
 const redux= require ("redux")
 const createStore= redux.createStore
 const Buy_Cake="Buy_Cake"
